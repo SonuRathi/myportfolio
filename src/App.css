@@ -1,0 +1,50 @@
+/* General Styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin; /* Use viewport units for responsive sizing */
+  pointer-events: none; /* Prevent interaction with logo */
+}
+
+/* Animation for logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Animation when reduced motion preference is not set */
+  }
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #282c34; /* Dark background */
+  min-height: 100vh; /* Full height */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white; /* White text color */
+}
+
+/* Link Styles */
+.App-link {
+  color: #61dafb; /* Light blue link color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Link Hover Effect */
+.App-link:hover {
+  color: #21a1f1; /* Darker shade on hover */
+}
+
+/* Keyframes for logo spinning animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Starting position */
+  }
+  to {
+    transform: rotate(360deg); /* Ending position */
+  }
+}

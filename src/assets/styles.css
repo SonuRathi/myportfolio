@@ -1,0 +1,191 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f5; /* Softer gray background for a balanced contrast */
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Navigation Styles */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#about img {
+  width: 150px; /* Set to specific pixel width for consistency */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills ul li {
+  background-color: #007bff;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#skills ul li:hover {
+  background-color: #0056b3;
+  transform: translateY(-5px);
+}
+
+/* Projects Section */
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects ul li {
+  margin-bottom: 20px;
+}
+
+#projects ul li h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+#projects ul li h3:hover {
+  color: #0056b3;
+}
+
+#projects ul li p {
+  margin: 10px 0;
+}
+
+#projects ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#projects ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+#contact p {
+  font-size: 1.2rem;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 20px 15px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  #skills ul li {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}

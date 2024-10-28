@@ -1,0 +1,50 @@
+/* Reset default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Helps with consistent sizing */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6; /* Improves readability */
+  background-color: #f4f4f4; /* Light background for better contrast */
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 10px 0; /* Adds space around headings */
+  color: #333; /* Dark color for headings */
+}
+
+p {
+  margin: 0 0 15px; /* Space below paragraphs */
+  color: #555; /* Slightly lighter for paragraphs */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Bootstrap primary color for links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #eaeaea; /* Light background for code */
+  padding: 2px 4px; /* Padding around code text */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Additional styles for lists */
+ul {
+  padding-left: 20px; /* Indentation for lists */
+}
+
+li {
+  margin: 5px 0; /* Space between list items */
+}
